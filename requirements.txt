@@ -1,0 +1,11 @@
+docling
+google-genai
+langchain-text-splitters
+langchain-google-genai
+pymongo[srv]
+langchain-mongodb
+fastapi
+fastapi[standard]
+python-dotenv         
+pydantic             
+uvicorn               
