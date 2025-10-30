@@ -1,4 +1,4 @@
-# Task - Document Processing & RAG System
+# Document Processing & RAG System
 
 A comprehensive document processing and Retrieval-Augmented Generation (RAG) system built with FastAPI, MongoDB, and Google's Gemini AI. This system processes PDF documents, converts them to structured markdown, creates embeddings, and provides intelligent question-answering capabilities.
 
