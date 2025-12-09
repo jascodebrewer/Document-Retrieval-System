@@ -12,7 +12,7 @@ def get_google_embeddings(model_id='text-embedding-004'):
     # Get API key from environment variables
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
-        raise ValueError("❌ GEMINI_API_KEY not found. Please set it in your .env file.")
+        raise ValueError("GEMINI_API_KEY not found. Please set it in your .env file.")
     
     # Initialize Google embeddings client with specified model
     # text-embedding-004 provides 768-dimensional vectors for vector search
